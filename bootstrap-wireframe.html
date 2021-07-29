@@ -6,91 +6,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
 
     <title>Hello, world!</title>
 </head>
-<body>
+<body class="bg-light">
 
-<div class="container main-container">
-    <header class="row header-container">
-        <nav class="navbar">
-            <div class="logo">logo</div>
-            <div class="header-right">
-                <div class="header-button-right">
-                    <button>support</button>
-                    <button>log in</button>
-                </div>
-            </div>
-        </nav>
+<header class="header-container ">
 
-        <div class="header-main-content d-flex">
-            <div class="header-content-left">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                <h2>A animi atque corporis eligendi esse, exercitationem laborum nobis numquam obcaecati odio porro
-                    quam quod reiciendis reprehenderit saepe, sunt, unde velit vitae.</h2>
-                <ul>
-                    <li>
-                        list item
-                    </li>
-                    <li>
-                        list item
-                    </li>
-                    <li>
-                        list item
-                    </li>
-                </ul>
-                <div class="header-buttons">
-                    <button>main cta button</button>
-                    <button>learn more</button>
-                </div>
+    <div class="container nav-container bg-secondary">
+        <div class="row justify-content-center py-3">
+            <div class="col-md-10">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="btn btn-dark text-white" href="#">THE LOGO</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            </div>
-            <div class="header-content-right">
-                <div>header image goes here</div>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="btn btn-sm btn-secondary rounded-pill px-3" aria-current="page" href="#">SUPPORT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-sm btn-dark rounded-pill px-3" href="#">LOG IN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
-        <div class="secondary-nav">
-            <nav class="navbar">
-                <div class="logo">logo</div>
-                <div class="header-right">
-                    <div class="header-button-right">
-                        <button>Overview</button>
-                        <button>One-on-one</button>
-                        <button>Testimonials</button>
-                        <button>More</button>
-                        <button>Cta-button</button>
+    </div>
 
-                    </div>
+    <div class="container hero bg-secondary">
+        <div class="row justify-content-center align-content-center h-100 pb-5">
+            <div class="col-md-5 header-content-left text-white">
+                <h1>Lorem ipsum dolor sit amet consectet</h1>
+                <h5>Sed pharetra eros a mi aliquam et molestie mauris tincidunt. Phasellus laculis.</h5>
+                <ul>
+                    <li>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus
+                    </li>
+                    <li>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus
+                    </li>
+                    <li>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-danger rounded-pill me-2 px-3">MAIN CTA BUTTON
+                </button>
+                <button type="button" class="btn btn-light rounded-pill px-3">LEARN MORE</button>
+            </div>
+            <div class="col-md-5 header-content-right">
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+
+</header>
+
+
+<div class="container nav-container bg-white border">
+
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="bg-dark">
+                    <a class="btn btn-sm rounded-pill text-white" href="#">THE LOGO</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav-sub">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="btn btn-sm btn-light rounded-pill px-3" href="#">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-sm btn-light rounded-pill px-3" href="#">One-on-one</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-sm btn-light rounded-pill px-3" href="#">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-sm btn-light rounded-pill px-3" href="#">More</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="btn btn-sm btn-danger rounded-pill px-3" href="#">MAIN CTA BUTTON</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </div>
-    </header>
-
-    <article>
-        <section>
-            section
-        </section>
-        <section>
-            section
-        </section>
-        <section>
-            section
-        </section>
-        <section>
-            section
-        </section>
-
-    </article>
+    </div>
 </div>
-<footer class="footer">
-    footer
-</footer>
+<div class="container nav-container bg-s border">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div>i am a row</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container-fluid footer-container bg-secondary text-center">
+    <div class="footer row">
+
+        <footer class="footer">
+            FOOTER MATERIAL
+        </footer>
+    </div>
+</div>
+
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
