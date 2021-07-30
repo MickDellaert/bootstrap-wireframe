@@ -14,9 +14,10 @@
 <body class="bg-light">
 
 <header class="header-container ">
-
+    <!-- start navbar -->
     <div class="container nav-container bg-secondary">
         <div class="row justify-content-center py-3">
+            <!-- content inside a column to give space outside following the wireframe layout -->
             <div class="col-md-10">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="btn btn-dark text-white" href="#">THE LOGO</a>
@@ -41,9 +42,12 @@
             </div>
         </div>
     </div>
+    <!-- end navbar -->
 
+    <!-- start header content and image -->
     <div class="container hero bg-secondary">
         <div class="row justify-content-center align-content-center h-100 pb-5">
+
             <div class="col-md-5 header-content-left text-white">
                 <h1>Lorem ipsum dolor sit amet consectet</h1>
                 <h5>Sed pharetra eros a mi aliquam et molestie mauris tincidunt. Phasellus laculis.</h5>
@@ -58,27 +62,26 @@
                         At vero eos et accusamus et iusto odio dignissimos ducimus
                     </li>
                 </ul>
+
+                <!-- would like to make the buttons change (full width) on small size todo -->
                 <button type="button" class="btn btn-danger rounded-pill me-2 px-3">MAIN CTA BUTTON
                 </button>
                 <button type="button" class="btn btn-light rounded-pill px-3">LEARN MORE</button>
             </div>
+
+            <!-- working with an empty div here, look for a better way todo -->
             <div class="col-md-5 header-content-right">
             </div>
+
         </div>
-
-
     </div>
-    </div>
-
-
+    <!-- end header content and image -->
 </header>
 
-
-<div class="container nav-container bg-white border">
-
+<!-- start secondary navbar -->
+<div class="container nav-container-secondary bg-white border">
     <div class="row justify-content-center">
         <div class="col-md-10">
-
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="bg-dark">
                     <a class="btn btn-sm rounded-pill text-white" href="#">THE LOGO</a>
@@ -88,7 +91,6 @@
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav-sub">
                     <ul class="nav nav-pills">
@@ -113,17 +115,21 @@
         </div>
     </div>
 </div>
+<!-- end secondary navbar -->
+
+<!-- start main section -->
+
 <div class="container nav-container bg-s border">
     <div class="row justify-content-center">
         <div class="col-md-10">
             <div>i am a row</div>
-
         </div>
-
     </div>
 </div>
+<!-- end main section -->
 
-
+<!-- start footer -->
+<!-- using a container-fluid here to give full width -->
 <div class="container-fluid footer-container bg-secondary text-center">
     <div class="footer row">
 
@@ -132,6 +138,8 @@
         </footer>
     </div>
 </div>
+<!-- start footer -->
+
 
 <script src="js/bootstrap.js"></script>
 </body>
