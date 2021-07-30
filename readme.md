@@ -2,14 +2,14 @@
 
 ## Personal remarks:
 
-While making this exercise I realized I didn't have a proper grasp on Bootstrap yet. So I took it slowly taking my time to read up on the Bootstrap documentation and some best practices.  
+While making this exercise I realized I didn't have a proper grasp on Bootstrap yet. So I took it slowly taking my time to read up on the Bootstrap documentation, some best practices, and a lot of trial and error.  
 
 Some questions:
 - Best ways to use containers: only one main container or multiple ones?
 - Grid system: best way to make a page like the example here with a column margin on both sides? Use a central column width col-10 or work with offset.
 - Image size and responsiveness.
-- How to structure the page so it easily adaptable later on, for example a full-width section, or a background color
-- Trying to make the header section responsive and the buttons change.
+- How to structure the page, so it is easily adaptable later on, for example a full-width section, or a background color.
+- Trying to make the header section responsive, and the buttons change position on smaller screens.
 - Including Sass and making custom styling.
 
 
