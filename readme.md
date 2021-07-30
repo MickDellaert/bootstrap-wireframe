@@ -1,5 +1,18 @@
 # A full page wireframe
 
+## Personal remarks:
+
+While making this exercise I realized I didn't have a proper grasp on Bootstrap yet. So I took it slowly taking my time to read up on the Bootstrap documentation and some best practices.  
+
+Some questions:
+- Best ways to use containers: only one main container or multiple ones?
+- Grid system: best way to make a page like the example here with a column margin on both sides? Use a central column width col-10 or work with offset.
+- Image size and responsiveness.
+- How to structure the page so it easily adaptable later on, for example a full-width section, or a background color
+- Trying to make the header section responsive and the buttons change.
+- Including Sass and making custom styling.
+
+
 ## The Mission
 
 A client needs a new website for her services. The designer you are collaborating with sent you a wireframe\*. Your task is to turn this wireframe into an interactive HTML page so that the client can get a good idea if she likes the current structure or not.
@@ -27,3 +40,4 @@ If you used a _component-first_ framework, do the same exercise but with a _util
 ## Good luck!
 
 ![](https://media.giphy.com/media/629GlaFwxaOdUajE9g/giphy.gif)
+
